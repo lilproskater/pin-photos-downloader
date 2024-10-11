@@ -12,7 +12,7 @@ def modify_resolution(link, resolution):
 
 # Enter URLS manually below, if you don't want to input file name with links after
 urls = []
-save_dir = 'temp'
+save_dir = ''
 if not save_dir:
     print('Please configure save_dir (save directory)')
     exit()
